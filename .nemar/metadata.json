@@ -1,28 +1,80 @@
 {
   "version": "2.0",
-  "dataset_id": "on003518",
-  "source": "openneuro",
-  "source_id": "ds003518",
+  "pipeline_stage": "validated",
   "title": "EEG: Simon Conflict w/ Reinforcement + Cabergoline Challenge",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "James F Cavanagh": {},
     "Michael J Frank": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003518.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003518",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003518",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/ncomms6394",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bmp",
+    ".db",
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".xlsx",
+    ".zip"
+  ],
+  "description": "This dataset comprises electroencephalography (EEG) recordings from two studies investigating the Simon conflict task with reinforcement-based cost manipulation. Study 1 included 83 healthy participants (80 plus 5 placebo controls from a pilot phase), while Study 2 involved 27 healthy participants in a double-blind design receiving either cabergoline (1.25 mg) or placebo. The dataset provides insights into neural mechanisms of conflict processing and decision-making under pharmacological modulation.",
+  "methods_description": "EEG data were collected during a Simon conflict task with reinforcement manipulation. Study 1 consisted of 83 healthy participants (80 participants plus 5 placebo sessions from a pilot drug study). Study 2 was a double-blind, placebo-controlled study with 30 participants enrolled (27 completed; 3 dropouts), receiving cabergoline 1.25 mg or placebo. Data were collected circa 2012-2013 at the Laboratory for Neural Computation & Cognition at Brown University.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Simon task"
+    },
+    {
+      "term": "conflict processing"
+    },
+    {
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "cabergoline"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "source_hash": "d20f79fd8b9bf729c3fe53f0124a78d3f6dece0f1a038ee36717c232aae03bd0"
 }
