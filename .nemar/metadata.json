@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "EEG: Simon Conflict w/ Reinforcement + Cabergoline Challenge",
-  "description": "This dataset comprises electroencephalography (EEG) recordings from 110 healthy participants performing a Simon conflict task with reinforcement-based cost manipulation. The study includes two components: a larger observational cohort (n=83) and a double-blind pharmacological intervention study (n=27) examining the effects of Cabergoline (1.25 mg dopamine agonist) on conflict processing and decision-making. Data were collected during 2012-2013 and provide insights into neural mechanisms of cognitive control and reward-based learning.",
-  "methods_description": "EEG was recorded while participants performed a Simon conflict task with reinforcement manipulation. Study 1 included 80 healthy participants plus 5 placebo sessions from a pilot drug study (total n=83). Study 2 was a double-blind design with 30 participants (27 completers) receiving Cabergoline 1.25 mg or placebo. Some participants completed two sessions. Data were collected at the Laboratory for Neural Computation & Cognition at Brown University circa 2012-2013.",
+  "description": "EEG dataset from a Simon conflict task with a reinforcement manipulation testing the cost of conflict. It includes healthy participants in Study 1 (n=83) and a double-blind, placebo-controlled cabergoline (1.25 mg) challenge in Study 2 (n=27), with placebo and drug sessions. Data were collected around 2012-2013 at Brown University.",
+  "methods_description": "Participants performed a Simon conflict task with a reinforcement manipulation, written in Matlab, while EEG was recorded. Study 2 was a double-blind drug study in which participants received cabergoline 1.25 mg in one of two sessions. Trigger codes are documented in CC_Triggers.mat and further metadata in an .xls sheet in the code folder.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,32 +15,28 @@
       "term": "EEG"
     },
     {
-      "term": "Simon task"
-    },
-    {
-      "term": "conflict monitoring"
+      "term": "Simon conflict task"
     },
     {
       "term": "reinforcement learning"
     },
     {
-      "term": "dopamine agonist"
+      "term": "Cabergoline",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000077465"
     },
     {
-      "term": "cognitive control"
+      "term": "Dopamine",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004298"
     },
     {
-      "term": "event-related potentials"
+      "term": "cognitive conflict"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003518",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003518",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -53,6 +49,11 @@
       "identifier": "10.18112/openneuro.ds003518.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003518",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -60,7 +61,7 @@
     "eeg"
   ],
   "sizes": [
-    "42.4 GB (450 files)"
+    "39.49 GB (450 files)"
   ],
   "formats": [
     ".bmp",
